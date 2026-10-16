@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Thomas Foubert — Communication & événementiel</title>
+<meta name="description" content="CV-portfolio de Thomas Foubert : communication, événementiel, gestion de projet.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Baloo+2:wght@600;700&family=Nunito:wght@400;600;700&family=Poppins:wght@400;600&family=DM+Serif+Display&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="#haut" id="brand">TF</a>
+  <nav id="nav">
+    <a href="#parcours">Parcours</a>
+    <a href="#realisations">Réalisations</a>
+    <a href="#competences">Compétences</a>
+    <a href="#formations">Formations</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <button class="pdf" id="pdf" type="button">Télécharger en PDF</button>
+</header>
+
+<main id="haut">
+  <section class="hero">
+    <svg class="deco d1" viewBox="0 0 100 60" aria-hidden="true"><path d="M5 40C20 5 35 70 50 30S80 10 95 45" stroke="var(--green)"/><path d="M8 52C25 20 40 70 58 42" stroke="var(--blue)"/><path d="M30 12C45 0 60 20 80 8" stroke="var(--yellow)"/></svg>
+    <svg class="deco d2" viewBox="0 0 100 60" aria-hidden="true"><path d="M5 20C25 60 40 0 55 35S85 50 95 15" stroke="var(--coral)"/><path d="M10 45C30 25 50 60 80 30" stroke="var(--yellow)"/></svg>
+    <label class="photo" id="photo" title="Photo de profil">
+      <span id="initiales">TF</span>
+    </label>
+    <div class="hero-text">
+      <p class="eyebrow" id="ville"></p>
+      <h1 id="nom"></h1>
+      <p class="sub" id="titre"></p>
+      <p class="lead" id="accroche"></p>
+      <div class="pills" id="pills"></div>
+    </div>
+  </section>
+
+  <div class="targets" id="targets" role="tablist" aria-label="Choisir une orientation"></div>
+
+  <section id="parcours" class="block">
+    <h2>Parcours</h2>
+    <div class="seg" id="seg">
+      <button type="button" data-t="all" class="on">Tout</button>
+      <button type="button" data-t="pro">Professionnel</button>
+      <button type="button" data-t="asso">Engagement</button>
+    </div>
+    <div class="timeline" id="timeline"></div>
+  </section>
+
+  <section id="realisations" class="block">
+    <h2>Réalisations</h2>
+    <div class="grid" id="grid"></div>
+  </section>
+
+  <section id="competences" class="block">
+    <h2>Compétences</h2>
+    <p class="hint">Clique sur une compétence pour voir où elle s'applique.</p>
+    <div id="skills"></div>
+    <button type="button" class="reset" id="resetSkill" hidden>Retirer le filtre</button>
+  </section>
+
+  <section id="formations" class="block">
+    <h2>Formations</h2>
+    <div class="forms" id="forms"></div>
+  </section>
+
+  <section id="contact" class="block">
+    <h2>Contact</h2>
+    <div class="links" id="links"></div>
+  </section>
+</main>
+
+<footer>© <span id="year"></span> Thomas Foubert</footer>
+
+<dialog id="modal" aria-labelledby="mTitle">
+  <button type="button" class="close" id="mClose" aria-label="Fermer">×</button>
+  <div id="mBody"></div>
+</dialog>
+
+<aside id="panel" hidden>
+  <h3>Direction artistique</h3>
+  <small>Les réglages s'appliquent en direct. Copie le résultat dans <code>data/content.json</code> (clé « design ») ou dans l'onglet Design du Sheets.</small>
+  <div id="ctl"></div>
+  <textarea id="out" readonly></textarea>
+  <div class="row"><button type="button" id="cp">Copier</button><button type="button" id="rs">Réinitialiser</button><button type="button" id="cl">Fermer</button></div>
+</aside>
+
+<script src="js/app.js"></script>
+</body>
+</html>

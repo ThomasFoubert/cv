@@ -1,0 +1,13 @@
+Dossier des photos du site.
+
+Noms attendus (ceux écrits dans data/content.json) :
+  phenomene-1.jpg, phenomene-2.jpg   -> Association Phénomène
+  frequences-1.jpg, frequences-2.jpg -> Festival Fréquences
+  webapp-1.jpg                       -> capture de la WebApp
+  memo-1.jpg, memo-2.jpg             -> Maison des Étudiants de Montbéliard
+  tennis-1.jpg, tennis-2.jpg         -> Tennis Club
+  profil.jpg                         -> photo de profil (optionnel)
+
+Si une photo est absente, le site l'ignore sans erreur : tu peux ajouter les images au fur et à mesure.
+Conseils : largeur maximale 1600 px, format JPEG ou WebP, quelques centaines de Ko chacune.
+Vérifie l'accord des personnes visibles avant de publier.

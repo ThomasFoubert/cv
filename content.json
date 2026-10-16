@@ -1,0 +1,43 @@
+{
+  "design": {"accent":"#E8601C","ink":"#26286B","paper":"#FFFFFF","bg":"#FBF8F2","yellow":"#F2B632","green":"#8CC98B","blue":"#4C7DF0","coral":"#F2666B","ft":"Fredoka","fb":"Nunito","fs":16,"r":20,"tilt":7,"decor":"plein"},
+  "profil": {"nom":"Thomas Foubert","initiales":"TF","ville":"Lyon","liens":[{"l":"LinkedIn","u":""},{"l":"E-mail","u":""}]},
+  "cibles": {
+    "tous": {"libelle":"Général","titre":"Communication & événementiel","accroche":"Communicant diplômé d'un MBA Communication (ISCOM, Bac+5), à l'aise sur le terrain comme sur les outils numériques. Engagé de longue date dans la vie associative, dont la coordination de plus de 90 bénévoles au festival Fréquences, et formé à la gestion opérationnelle à la SNCF."},
+    "evenementiel": {"libelle":"Événementiel","titre":"Communication & événementiel","accroche":"Communicant formé à l'événementiel (MBA Communication, ISCOM) et rodé au terrain : plannings, logistique et communication interne pour plus de 90 bénévoles au festival Fréquences 2026. Conçoit ses propres outils, comme la WebApp créée avec l'IA et Google Apps Script."},
+    "crise": {"libelle":"Communication de crise","titre":"Communication de crise","accroche":"Habitué à décider vite et à coordonner sous contrainte : gestion en temps réel des aléas de production TER en Auvergne-Rhône-Alpes (SNCF Voyageurs), après une première mobilisation pendant le confinement à la tête de la Maison des Étudiants de Montbéliard."},
+    "politique": {"libelle":"Communication politique","titre":"Communication politique","accroche":"Communicant formé à la communication publique et aux relations presse (MBA ISCOM), avec un mémoire sur les enjeux des Jeux Olympiques modernes pour la société. Engagé dans la vie associative depuis des années : sait mobiliser et fédérer."},
+    "office": {"libelle":"Office management","titre":"Office management","accroche":"Profil organisé et polyvalent, à l'aise avec les plannings, les budgets et les ressources : trésorerie d'un budget de 20 000 €, coordination de plus de 90 bénévoles, gestion de ressources et d'aléas à la SNCF. Maîtrise de Google Workspace, Notion et Apps Script."}
+  },
+  "experiences": [
+    {"id":"E01","type":"pro","titre":"Gestionnaire de ressources — Guter Corail","structure":"SNCF Voyageurs, COP TER AURA","periode":"2026 →","debut":"01/2026","resume":"Gestion du matériel et couverture du plan de transport TER en Auvergne-Rhône-Alpes, en 2x8.","detail":"","chiffres":[],"photos":[],"liens":[],"comp":["C08"],"tags":"crise,office","visible":true},
+    {"id":"E02","type":"pro","titre":"Gestionnaire de ressources — Permanent ADC/ASCT","structure":"SNCF Voyageurs, COP TER AURA","periode":"2025–26","debut":"07/2025","resume":"Gestion des journées des conducteurs et des contrôleurs selon les aléas, en 2x8.","detail":"","chiffres":[],"photos":[],"liens":[],"comp":["C08"],"tags":"crise,office","visible":true},
+    {"id":"E03","type":"asso","titre":"Coordinateur de la Vie Associative","structure":"Association Phénomène","periode":"2022 →","debut":"09/2022","resume":"Communication interne et gestion des bénévoles de l'association, qui promeut la création émergente et étudiante. Organisation du festival Fréquences.","detail":"Responsable d'un réseau créatif émergent étudiant (avec des ateliers à la MDE), représentant de l'association auprès d'Animafac pour la partie culturelle, et impliqué dans l'organisation d'événements internes (séminaires, AG…). À partir de 2027 : gestion de projet de Campus.","chiffres":["90+ bénévoles (Fréquences 2026)"],"photos":["img/phenomene-1.jpg","img/phenomene-2.jpg"],"liens":[],"comp":["C06","C07","C10"],"tags":"evenementiel,office","visible":true},
+    {"id":"E04","type":"asso","titre":"Président","structure":"Maison des Étudiants de Montbéliard (MéMO)","periode":"2020–21","debut":"06/2020","resume":"Accueil et développement de la vie étudiante sur le campus, pendant un an.","detail":"Grande opération de distribution alimentaire et action contre l'isolement des étudiants pendant le confinement.","chiffres":[],"photos":["img/memo-1.jpg"],"liens":[],"comp":[],"tags":"evenementiel,crise","visible":true},
+    {"id":"E05","type":"asso","titre":"Trésorier","structure":"BDE MMI","periode":"2020–21","debut":"06/2020","resume":"Gestion financière de l'association étudiante.","detail":"","chiffres":["Budget annuel de 20 000 €"],"photos":[],"liens":[],"comp":["C09"],"tags":"evenementiel,office","visible":true},
+    {"id":"E06","type":"asso","titre":"Licencié","structure":"Tennis Club d'Isle-sur-le-Doubs","periode":"2014–22","debut":"2014","resume":"Création des réseaux sociaux du club et des premières affiches des tournois.","detail":"","chiffres":[],"photos":["img/tennis-1.jpg"],"liens":[],"comp":["C04","C05"],"tags":"evenementiel","visible":true}
+  ],
+  "realisations": [
+    {"id":"R01","titre":"Coordination de plus de 90 bénévoles — Fréquences 2026","structure":"Association Phénomène","resume":"Plannings construits à partir des besoins, logistique du festival et des bénévoles prise en charge.","detail":"","chiffres":["90+ bénévoles"],"photos":["img/frequences-1.jpg","img/frequences-2.jpg"],"liens":[],"comp":["C06","C07"],"tags":"evenementiel,office","visible":true},
+    {"id":"R02","titre":"WebApp créée avec l'IA et Google Apps Script","structure":"Fréquences 2026","resume":"Application web conçue pour le festival, avec l'IA et Google Apps Script.","detail":"","chiffres":[],"photos":["img/webapp-1.jpg"],"liens":[{"l":"Voir le post LinkedIn","u":""}],"comp":["C01","C02"],"tags":"evenementiel,office","visible":true},
+    {"id":"R03","titre":"Distribution alimentaire et lutte contre l'isolement étudiant","structure":"Maison des Étudiants de Montbéliard","resume":"Opération menée pendant le confinement à la tête de la MéMO.","detail":"","chiffres":[],"photos":["img/memo-2.jpg"],"liens":[],"comp":[],"tags":"crise,evenementiel","visible":true},
+    {"id":"R04","titre":"Gestion des aléas de production TER","structure":"SNCF Voyageurs, COP TER AURA","resume":"Réaffectation des conducteurs et contrôleurs et couverture du plan de transport selon les aléas.","detail":"","chiffres":[],"photos":[],"liens":[],"comp":["C08"],"tags":"crise,office","visible":true},
+    {"id":"R05","titre":"Gestion d'un budget annuel de 20 000 €","structure":"BDE MMI","resume":"Trésorerie de l'association étudiante sur un an.","detail":"","chiffres":["20 000 € / an"],"photos":[],"liens":[],"comp":["C09"],"tags":"office,evenementiel","visible":true},
+    {"id":"R06","titre":"Réseaux sociaux et affiches du Tennis Club","structure":"Tennis Club d'Isle-sur-le-Doubs","resume":"Création des réseaux sociaux du club et des premières affiches des tournois.","detail":"","chiffres":[],"photos":["img/tennis-2.jpg"],"liens":[],"comp":["C04","C05"],"tags":"evenementiel","visible":true}
+  ],
+  "formations": [
+    {"id":"F01","titre":"MBA Communication — Bac+5","structure":"ISCOM","periode":"2021–24","resume":"Projets de groupe en communication et événementiel (communication publique, relations presse) ; mémoire sur les enjeux des Jeux Olympiques modernes pour la société.","tags":"tous","visible":true},
+    {"id":"F02","titre":"DUT MMI — Bac+2","structure":"IUT de Belfort-Montbéliard","periode":"2019–21","resume":"","tags":"tous","visible":true}
+  ],
+  "competences": [
+    {"id":"C01","nom":"Google Workspace","cat":"Outils","tags":"tous"},
+    {"id":"C02","nom":"Apps Script / web","cat":"Outils","tags":"tous"},
+    {"id":"C03","nom":"Notion","cat":"Outils","tags":"tous"},
+    {"id":"C04","nom":"Canva","cat":"Outils","tags":"tous"},
+    {"id":"C05","nom":"Suite Adobe","cat":"Outils","tags":"tous"},
+    {"id":"C06","nom":"Coordination de bénévoles","cat":"Savoir-faire","tags":"evenementiel,office"},
+    {"id":"C07","nom":"Logistique événementielle","cat":"Savoir-faire","tags":"evenementiel,office"},
+    {"id":"C08","nom":"Gestion des aléas","cat":"Savoir-faire","tags":"crise,office"},
+    {"id":"C09","nom":"Gestion budgétaire","cat":"Savoir-faire","tags":"evenementiel,office"},
+    {"id":"C10","nom":"Communication interne","cat":"Savoir-faire","tags":"evenementiel,office"}
+  ]
+}
